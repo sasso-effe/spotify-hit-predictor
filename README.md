@@ -1,2 +1,5 @@
-# spotify-hit-predictor
-Bayesian Network to predict if a song will be an hit or not, based on spotify features - WIP
+# Spotify Hit Predictor [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sasso-effe/spotify-hit-predictor/blob/main/main.ipynb)
+
+>Music market has been in constant growing for the last years and this growth is of course driven by streaming platforms, of which Spotify is one of the main actors. With more than 60000 tracks loaded every day, Spotify's catalog is a huge database easily accessible thanks to Spotify's API, which allows to get detailed information for each track, linked both to physical proprieties of track's sound, both to perceptive features. Missing though public information about streams number (the API only provides a `popularity` value, but it is too much related with track's oldness to be reliable) we have used a Kaggle's database to know if a track was an _hit_ (is or has been popular) or not.
+
+>Then we tried to design or to learn a _**bayesian network**_ to analyze which features make a song successful and which are instead irrelevant. - [_See the full report_](https://github.com/sasso-effe/spotify-hit-predictor/blob/main/Spotify.pdf)
